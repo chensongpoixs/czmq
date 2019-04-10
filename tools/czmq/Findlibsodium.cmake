@@ -31,7 +31,7 @@ find_path (
 
 find_library (
     LIBSODIUM_LIBRARIES
-    NAMES sodium
+    NAMES libsodium  # win的写法 -------- linux    sodium 就可以了
     HINTS ${PC_LIBSODIUM_LIBRARY_HINTS}
 )
 
